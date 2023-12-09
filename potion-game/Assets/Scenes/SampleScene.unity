@@ -338,6 +338,7 @@ GameObject:
   - component: {fileID: 1473739685}
   - component: {fileID: 1473739684}
   - component: {fileID: 1473739683}
+  - component: {fileID: 1473739687}
   m_Layer: 0
   m_Name: Cauldron
   m_TagString: Untagged
@@ -419,6 +420,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1473739687
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473739682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6820eba67d3358448a58a380775dd009, type: 2}
 --- !u!1 &1899774167
 GameObject:
   m_ObjectHideFlags: 0
